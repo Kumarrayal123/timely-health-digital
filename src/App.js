@@ -31,7 +31,7 @@ export default function App() {
         <Solution/>
         <WhyChooseUs />
         <Approach />
-        <Results />
+        {/* <Results /> */}
         <Plans />
         <CallToAction />
         <Contact />

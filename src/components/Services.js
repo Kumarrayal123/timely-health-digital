@@ -79,9 +79,9 @@ export default function Services() {
               </span>
             </h2>
           </div>
-          <p className="text-sm sm:text-base text-gray-600 max-w-lg leading-relaxed">
+          {/* <p className="text-sm sm:text-base text-gray-600 max-w-lg leading-relaxed">
             From building your online presence to generating qualified enquiries, we provide end-to-end digital marketing solutions designed for healthcare businesses.
-          </p>
+          </p> */}
         </div>
 
         {/* 3×2 Services Grid */}

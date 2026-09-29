@@ -12,8 +12,8 @@ const plans = [
   {
     id: '01',
     name: 'Starter Plan',
-    price: '₹9,999',
-    period: '/month',
+    // price: '₹9,999',
+    // period: '/month',
     tagline: 'For small businesses starting their digital presence',
     icon: RocketLaunchIcon,
     headerGradient: 'from-blue-600 to-blue-500',
@@ -34,15 +34,15 @@ const plans = [
   {
     id: '02',
     name: 'Growth Plan',
-    price: '₹19,999',
-    period: '/month',
+    // price: '₹19,999',
+    // period: '/month',
     tagline: 'For businesses looking to grow their online presence',
     icon: SparklesIcon,
     headerGradient: 'from-emerald-600 to-green-500',
     accentColor: 'text-secondary',
     items: [
       { name: '12 Social Media Posts / month', desc: 'Higher frequency for steady growth' },
-      { name: '8 Reels / month', desc: 'More video volume for algorithm reach' },
+      { name: '4 Reels / month', desc: 'More video volume for algorithm reach' },
       { name: '12 Stories / month', desc: 'Consistent daily touchpoints' },
       { name: 'Social Media Management', desc: 'Full-service handling & engagement' },
       { name: 'On-Page SEO', desc: 'Content and meta optimization' },
@@ -59,15 +59,15 @@ const plans = [
   {
     id: '03',
     name: 'Professional Plan',
-    price: '₹34,999',
-    period: '/month',
+    // price: '₹34,999',
+    // period: '/month',
     tagline: 'For businesses focused on leads, branding & conversions',
     icon: BuildingOffice2Icon,
     headerGradient: 'from-slate-900 to-blue-900',
     accentColor: 'text-primary',
     items: [
       { name: '16 Social Media Posts / month', desc: 'High-volume presence across channels' },
-      { name: '12 Reels / month', desc: 'Aggressive short-form video strategy' },
+      { name: '4 Reels / month', desc: 'Aggressive short-form video strategy' },
       { name: '20 Stories / month', desc: 'Daily storytelling & engagement' },
       { name: 'Social Media Management', desc: 'Complete platform ownership' },
       { name: 'Advanced SEO', desc: 'Deep technical and content optimization' },
@@ -86,15 +86,15 @@ const plans = [
   {
     id: '04',
     name: 'Premium 360° Plan',
-    price: '₹59,999',
-    period: '/month',
+    // price: '₹59,999',
+    // period: '/month',
     tagline: 'Complete digital growth & marketing solution',
     icon: StarIcon,
     headerGradient: 'from-blue-600 via-teal-600 to-emerald-600',
     accentColor: 'text-secondary',
     items: [
       { name: '20 Social Media Posts / month', desc: 'Maximum daily brand presence' },
-      { name: '16 Reels / month', desc: 'Highest video output for reach' },
+      { name: '4 Reels / month', desc: 'Highest video output for reach' },
       { name: '30 Stories / month', desc: 'Daily engagement at scale' },
       { name: 'Complete Social Media Management', desc: 'Full team handling all platforms' },
       { name: 'Advanced SEO', desc: 'Enterprise-level search strategy' },
@@ -116,15 +116,15 @@ const plans = [
 ];
 
 const addOnServices = [
-  { id: '01', name: 'Landing Page', price: '₹9,999', desc: 'High-converting single-page site' },
-  { id: '02', name: 'Business Website', price: '₹19,999', desc: 'Professional multi-page presence' },
-  { id: '03', name: 'Professional Website', price: '₹29,999', desc: 'Custom design with advanced features' },
-  { id: '04', name: 'E-commerce Website', price: '₹39,999', desc: 'Full online store with payments' },
-  { id: '05', name: 'Custom Web Application', price: '₹59,999+', desc: 'Tailored web software solutions' },
-  { id: '06', name: 'Mobile Application', price: '₹79,999+', desc: 'iOS & Android app development' },
-  { id: '07', name: 'Web + Mobile Application', price: '₹1,29,999+', desc: 'Complete cross-platform suite' },
-  { id: '08', name: 'SEO Setup', price: '₹7,999+', desc: 'Foundation technical SEO package' },
-  { id: '09', name: 'Branding Package', price: '₹9,999+', desc: 'Logo, identity & brand guidelines' },
+  { id: '01', name: 'Landing Page',  desc: 'High-converting single-page site' },
+  { id: '02', name: 'Business Website',desc: 'Professional multi-page presence' },
+  { id: '03', name: 'Professional Website', desc: 'Custom design with advanced features' },
+  { id: '04', name: 'E-commerce Website', desc: 'Full online store with payments' },
+  { id: '05', name: 'Custom Web Application', desc: 'Tailored web software solutions' },
+  { id: '06', name: 'Mobile Application',  desc: 'iOS & Android app development' },
+  { id: '07', name: 'Web + Mobile Application',  desc: 'Complete cross-platform suite' },
+  { id: '08', name: 'SEO Setup', desc: 'Foundation technical SEO package' },
+  { id: '09', name: 'Branding Package', desc: 'Logo, identity & brand guidelines' },
 ];
 
 export default function Plans() {
