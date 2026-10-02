@@ -40,12 +40,12 @@ export default function CallToAction() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
 
         {/* Eyebrow tag */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-900/60 border border-blue-700/50 shadow-inner mb-4">
+        {/* <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-900/60 border border-blue-700/50 shadow-inner mb-4">
           <span className="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse" />
           <span className="text-xs font-semibold text-blue-200 tracking-wide uppercase">
             Final CTA
           </span>
-        </div>
+        </div> */}
 
         {/* Headline */}
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight mb-4">

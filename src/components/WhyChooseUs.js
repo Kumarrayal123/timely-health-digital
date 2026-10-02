@@ -10,6 +10,7 @@ import {
   CheckBadgeIcon,
 } from '@heroicons/react/24/outline';
 import { motion } from 'framer-motion';
+import icon1 from "..//management_2039037.png"
 
 const points = [
   {

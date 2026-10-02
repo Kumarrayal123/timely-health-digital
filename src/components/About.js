@@ -6,6 +6,7 @@ import {
   ArrowRightIcon,
   SparklesIcon
 } from '@heroicons/react/24/outline';
+import about from "../abt-img 2.png";
 
 export default function About() {
   const stats = [
@@ -31,12 +32,12 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           
           {/* Left Column: Visual Showcase with Overlay Badges */}
-          <div className="lg:col-span-5 relative">
-            <div className="relative rounded-3xl overflow-hidden border border-gray-100 shadow-2xl group">
+          <div className="lg:col-span-6 relative">
+            <div className="relative rounded-3xl overflow-hidden border border-gray-100 shadow-2xl group bg-slate-50 flex justify-center items-center">
               <img
-                src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1000&q=80"
+                src={about}
                 alt="Timely Health digital marketing team collaborating"
-                className="w-full h-[420px] sm:h-[480px] object-cover group-hover:scale-105 transition-transform duration-700"
+                className="w-full h-[450px] sm:h-[520px] object-contain group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
 
@@ -82,7 +83,7 @@ export default function About() {
           </div>
 
           {/* Right Column: Narrative & Values */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-6">
             {/* Section Tag */}
             <div className="inline-flex items-center gap-2 mb-3">
               <span className="text-secondary font-bold text-sm tracking-wider">

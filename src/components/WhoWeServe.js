@@ -4,7 +4,8 @@ import img1 from '../img1.jpg';
 import img2 from "../img2.jpg";
 import img3 from "../img3.jpg";
 import img4 from "../img4.jpg";
-
+import img5 from "../img-5.jpg";
+import img6 from "../img-6.jpg";
 const segments = [
   {
     title: 'Hospitals',
@@ -30,12 +31,12 @@ const segments = [
   {
     title: 'Healthcare Startups',
     desc: 'Establish your digital presence, build awareness and grow your early audience fast.',
-    image: img2,
+    image: img5,
   },
   {
     title: 'Home Healthcare',
     desc: 'Reach people looking for convenient healthcare services delivered at home.',
-    image: img3,
+    image: img6,
   },
 ];
 
@@ -52,9 +53,9 @@ export default function WhoWeServe() {
               <span className="text-xs font-bold uppercase tracking-widest text-primary">WHO WE SERVE</span>
             </div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900 tracking-tight leading-tight max-w-2xl">
-              Healthcare Businesses{' '}
+              Healthcare Businesses{' '} 
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-                We Help Grow
+               <br/> We Help Grow
               </span>
             </h2>
           </div>
